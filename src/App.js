@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Product from './Component/Product.js';
+import Footer from './Component/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -95,6 +96,7 @@ class App extends React.Component {
       let sump = sumitems + this.state.promotrue;
      
           return(
+            <div>
         <div className="application">
               <header>
   {/* <nav>
@@ -138,8 +140,9 @@ class App extends React.Component {
             <button className="btnsave">Оформить заказ</button>
               </div>
               </div>
-              <footer>
-        </footer> 
+              </div>
+              <Footer>
+        </Footer> 
           </div>
             )
       }
