@@ -101,9 +101,12 @@ class App extends React.Component {
               <header>
   {/* <nav>
     <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Forum</a></li>
-      <li><a href="#">Download</a></li>
+      <li><a href="#"> Одежда и аксесуары</a></li>
+      <li><a href="#">Обувь</a></li>
+      <li><a href="#">Украшения</a></li>
+      <li><a href="#">Красота и здоровье</a></li>
+      <li><a href="#">Товары для дома</a></li>
+      <li><a href="#">Товары для кухни</a></li>
     </ul>
   </nav> */}
 </header>
