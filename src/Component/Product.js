@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import QChange from './QChange';
 
 class Product extends React.Component {
     constructor(props) {
@@ -31,24 +31,5 @@ class Product extends React.Component {
          );
      }
   }
-  function QChange(props) {
-    return (
-      <div className="quantitychange">
-        <button 
-          onClick={() => props.onChange(-1)}
-          className="qbutton minus"
-        >
-          -
-        </button>
-       
-        <div className="qnum">{props.quantity}</div>
-        <button 
-          className="qbutton plus"
-          onClick={() => props.onChange(+1)}
-        >
-          +
-        </button>
-      </div>
-    );
-  }
+ 
   export default Product;

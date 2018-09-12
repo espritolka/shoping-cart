@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Product from './Component/Product.js';
+import Product from './Component/Product';
 import Footer from './Component/Footer';
 
 class App extends React.Component {
