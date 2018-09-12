@@ -20,6 +20,7 @@ body {
   cursor: pointer;
   height: 30px;
   float: right;
+  padding: 5px 15px 5px 15px;
 }
 .btnsave:hover, .btnsave:focus {
   background: #e63f3c;
@@ -34,6 +35,7 @@ body {
   border: none;
   cursor: pointer;
   height: 30px;
+  padding: 5px 20px 5px 20px;
   margin: 10px;
 }
 .btnpromo:hover {
